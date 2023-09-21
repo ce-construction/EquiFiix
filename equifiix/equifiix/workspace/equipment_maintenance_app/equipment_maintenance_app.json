@@ -1,0 +1,62 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"2vpgW72en5\",\"type\":\"custom_block\",\"data\":{\"custom_block_name\":\"Equipment Heading\",\"col\":12}},{\"id\":\"SN0zPxYd7s\",\"type\":\"card\",\"data\":{\"card_name\":\"Equipment & Maintenance\",\"col\":4}}]",
+ "creation": "2023-09-21 16:05:07.229885",
+ "custom_blocks": [
+  {
+   "custom_block_name": "Equipment Heading",
+   "label": "Equipment Heading"
+  }
+ ],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "getting-started",
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "Equipment Maintenance App",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Equipment & Maintenance",
+   "link_count": 2,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Equip List",
+   "link_count": 0,
+   "link_to": "Equipment List",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Service Type",
+   "link_count": 0,
+   "link_to": "Service Type",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2023-09-21 16:15:59.262502",
+ "modified_by": "Administrator",
+ "module": "EquiFiix",
+ "name": "Equipment Maintenance App",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 39.0,
+ "shortcuts": [],
+ "title": "Equipment Maintenance App"
+}
