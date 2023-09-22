@@ -6,6 +6,13 @@ app_email = "ceit@ce-construction.com"
 app_license = "MIT"
 # required_apps = []
 
+fixtures = [
+	{
+		"doctype": "Custom HTML Block",
+        "filters": [["name", "in", ("Equipment Heading")]]	
+
+     }
+]
 # Includes in <head>
 # ------------------
 
