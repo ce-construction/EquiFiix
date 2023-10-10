@@ -9,8 +9,7 @@
  "engine": "InnoDB",
  "field_order": [
   "naming_series",
-  "equi_name",
-  "purchase_date_"
+  "equi_name"
  ],
  "fields": [
   {
@@ -19,12 +18,6 @@
    "in_list_view": 1,
    "label": "Equipment Name",
    "reqd": 1
-  },
-  {
-   "fieldname": "purchase_date_",
-   "fieldtype": "Date",
-   "in_list_view": 1,
-   "label": "Purchase Date"
   },
   {
    "fieldname": "naming_series",
@@ -36,7 +29,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-09-21 16:08:49.967806",
+ "modified": "2023-10-08 13:56:26.812761",
  "modified_by": "Administrator",
  "module": "EquiFiix",
  "name": "Equipment List",

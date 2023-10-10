@@ -1,0 +1,227 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "naming_series:",
+ "creation": "2023-09-24 10:48:56.957298",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "naming_series",
+  "site_",
+  "status_machine",
+  "first_time_fix",
+  "cm_br2",
+  "equip_name_",
+  "customer_name_",
+  "km_reading_",
+  "svr_no_",
+  "cm_br1",
+  "status_em",
+  "location_",
+  "service_name_",
+  "section_break_ccic",
+  "driver_details_column",
+  "op_name",
+  "phone_no",
+  "column_break_klek",
+  "date_request_",
+  "date_completion_",
+  "column_break_ycal",
+  "long_text_cwyo",
+  "request",
+  "sec_1",
+  "history_"
+ ],
+ "fields": [
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "hidden": 1,
+   "label": "Series",
+   "options": "EM-.YYYY.-"
+  },
+  {
+   "fieldname": "customer_name_",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Customer Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "equip_name_",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Equipment Name",
+   "options": "Equipment List",
+   "reqd": 1
+  },
+  {
+   "fieldname": "location_",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Location"
+  },
+  {
+   "fieldname": "service_name_",
+   "fieldtype": "Link",
+   "label": "Service Name",
+   "options": "Service Type"
+  },
+  {
+   "fieldname": "date_request_",
+   "fieldtype": "Datetime",
+   "in_list_view": 1,
+   "label": "Date of Service Request"
+  },
+  {
+   "fieldname": "date_completion_",
+   "fieldtype": "Datetime",
+   "in_list_view": 1,
+   "label": "Service Completion Date"
+  },
+  {
+   "fieldname": "km_reading_",
+   "fieldtype": "Data",
+   "label": "KM/Hour Reading"
+  },
+  {
+   "fieldname": "svr_no_",
+   "fieldtype": "Int",
+   "label": "SVR No."
+  },
+  {
+   "fieldname": "status_em",
+   "fieldtype": "Select",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Status",
+   "options": "Open\nAssign\nOn Hold\nCompleted\nNot Solved"
+  },
+  {
+   "fieldname": "status_machine",
+   "fieldtype": "Select",
+   "label": "Machine Status",
+   "options": "Warranty\nExtended Warranty\nBeyond Warranty\nCare Plus\nAMC"
+  },
+  {
+   "fieldname": "site_",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Site",
+   "options": "Branch",
+   "reqd": 1
+  },
+  {
+   "fieldname": "phone_no",
+   "fieldtype": "Phone",
+   "ignore_xss_filter": 1,
+   "label": "Operator/Driver Phone No."
+  },
+  {
+   "fieldname": "cm_br2",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "cm_br1",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_ccic",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "driver_details_column",
+   "fieldtype": "Column Break",
+   "label": "Driver Details"
+  },
+  {
+   "fieldname": "column_break_klek",
+   "fieldtype": "Column Break",
+   "label": "Service Information"
+  },
+  {
+   "fieldname": "column_break_ycal",
+   "fieldtype": "Column Break",
+   "label": "Service Nature"
+  },
+  {
+   "fieldname": "op_name",
+   "fieldtype": "Data",
+   "label": "Operator/Driver Name"
+  },
+  {
+   "default": "No",
+   "fieldname": "first_time_fix",
+   "fieldtype": "Select",
+   "label": "First Time Fix",
+   "options": "Yes\nNo"
+  },
+  {
+   "fieldname": "long_text_cwyo",
+   "fieldtype": "Long Text",
+   "in_list_view": 1,
+   "label": "Nature Of Complaint",
+   "max_height": "50px"
+  },
+  {
+   "fieldname": "request",
+   "fieldtype": "Select",
+   "label": "Nature Of Request",
+   "options": "\nBreakdown\nMachine Operation",
+   "reqd": 1
+  },
+  {
+   "fieldname": "sec_1",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "history_",
+   "fieldtype": "Table",
+   "label": "History ",
+   "options": "Equipment Status History"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-09-25 17:37:38.485224",
+ "modified_by": "Administrator",
+ "module": "EquiFiix",
+ "name": "Equipment Maintenance",
+ "naming_rule": "By \"Naming Series\" field",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Equipment Maintenance",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1,
+ "track_seen": 1,
+ "track_views": 1
+}

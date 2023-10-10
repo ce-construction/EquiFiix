@@ -5,6 +5,5 @@
 from frappe.model.document import Document
 
 
-class EquipmentList(Document):
+class EquipmentStatusHistory(Document):
 	pass
-

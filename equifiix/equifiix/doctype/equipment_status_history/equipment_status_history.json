@@ -1,0 +1,58 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:EM-status_s-YY-{#####}",
+ "creation": "2023-09-25 17:23:10.095337",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "status_s",
+  "date_s",
+  "mobilized_resources_s",
+  "reason_s"
+ ],
+ "fields": [
+  {
+   "fieldname": "status_s",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Status",
+   "options": "Assign\nOn Hold"
+  },
+  {
+   "default": "Now",
+   "fieldname": "date_s",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Date",
+   "read_only": 1
+  },
+  {
+   "fieldname": "mobilized_resources_s",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Mobilized Resources"
+  },
+  {
+   "fieldname": "reason_s",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Reason For Hold",
+   "options": "Financial Issue\nTechnical Issue\nSpare Parts Issue\nMain Power Issue"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-09-25 17:38:08.645330",
+ "modified_by": "Administrator",
+ "module": "EquiFiix",
+ "name": "Equipment Status History",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

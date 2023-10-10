@@ -1,6 +1,6 @@
 {
  "charts": [],
- "content": "[{\"id\":\"2vpgW72en5\",\"type\":\"custom_block\",\"data\":{\"custom_block_name\":\"Equipment Heading\",\"col\":12}},{\"id\":\"SN0zPxYd7s\",\"type\":\"card\",\"data\":{\"card_name\":\"Equipment & Maintenance\",\"col\":4}}]",
+ "content": "[{\"id\":\"2vpgW72en5\",\"type\":\"custom_block\",\"data\":{\"custom_block_name\":\"Equipment Heading\",\"col\":12}},{\"id\":\"SN0zPxYd7s\",\"type\":\"card\",\"data\":{\"card_name\":\"Equipment & Maintenance\",\"col\":4}},{\"id\":\"-JUrlRylme\",\"type\":\"card\",\"data\":{\"card_name\":\"Master\",\"col\":4}}]",
  "creation": "2023-09-21 16:05:07.229885",
  "custom_blocks": [
   {
@@ -21,19 +21,27 @@
    "hidden": 0,
    "is_query_report": 0,
    "label": "Equipment & Maintenance",
-   "link_count": 2,
+   "link_count": 1,
    "onboard": 0,
    "type": "Card Break"
   },
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Equip List",
+   "label": "Equipment Maintenance List",
    "link_count": 0,
-   "link_to": "Equipment List",
+   "link_to": "Equipment Maintenance",
    "link_type": "DocType",
    "onboard": 0,
    "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Master",
+   "link_count": 2,
+   "onboard": 0,
+   "type": "Card Break"
   },
   {
    "hidden": 0,
@@ -44,9 +52,19 @@
    "link_type": "DocType",
    "onboard": 0,
    "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Equipment List",
+   "link_count": 0,
+   "link_to": "Equipment List",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
   }
  ],
- "modified": "2023-09-21 16:15:59.262502",
+ "modified": "2023-09-24 13:52:36.308096",
  "modified_by": "Administrator",
  "module": "EquiFiix",
  "name": "Equipment Maintenance App",
