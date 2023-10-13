@@ -17,6 +17,36 @@ frappe.ui.form.on("Equipment List", {
         }
         
         },
+    setup:function(frm){
+
+        frm.set_query("to", "custom_site_date_table", function(doc, cdt, cdn) { 
+            let child = locals[cdt][cdn];
+            let filters = [];
+
+            // Check if the project field is filled
+            if (child.from) {
+                filters.push(['Branch', 'name', '!=', child.from]);
+            }
+
+            return {
+                filters: filters
+            };
+        });
+
+        frm.set_query("from", "custom_site_date_table", function(doc, cdt, cdn) { 
+            let child = locals[cdt][cdn];
+            let filters = [];
+
+            // Check if the project field is filled
+            if (child.to) {
+                filters.push(['Branch', 'name', '!=', child.to]);
+            }
+
+            return {
+                filters: filters
+            };
+        });
+    }
         
 });
 

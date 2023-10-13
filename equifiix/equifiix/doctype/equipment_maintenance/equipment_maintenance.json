@@ -13,7 +13,7 @@
   "status_machine",
   "first_time_fix",
   "cm_br2",
-  "equip_name_",
+  "equip_id_",
   "customer_name_",
   "km_reading_",
   "svr_no_",
@@ -47,14 +47,6 @@
    "fieldtype": "Data",
    "in_list_view": 1,
    "label": "Customer Name",
-   "reqd": 1
-  },
-  {
-   "fieldname": "equip_name_",
-   "fieldtype": "Link",
-   "in_list_view": 1,
-   "label": "Equipment Name",
-   "options": "Equipment List",
    "reqd": 1
   },
   {
@@ -182,11 +174,19 @@
    "fieldtype": "Table",
    "label": "History ",
    "options": "Equipment Status History"
+  },
+  {
+   "fieldname": "equip_id_",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Equipment ID",
+   "options": "Equipment List",
+   "reqd": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-09-25 17:37:38.485224",
+ "modified": "2023-10-12 15:56:54.259655",
  "modified_by": "Administrator",
  "module": "EquiFiix",
  "name": "Equipment Maintenance",

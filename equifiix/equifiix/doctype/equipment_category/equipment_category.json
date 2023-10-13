@@ -37,7 +37,7 @@
  "modified": "2023-10-12 14:38:56.693561",
  "modified_by": "Administrator",
  "module": "EquiFiix",
- "name": "Equipment Name",
+ "name": "Equipment Category",
  "naming_rule": "Autoincrement",
  "owner": "Administrator",
  "permissions": [

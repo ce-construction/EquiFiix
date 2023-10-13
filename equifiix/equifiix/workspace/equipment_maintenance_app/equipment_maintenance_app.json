@@ -46,16 +46,6 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Equipment Name",
-   "link_count": 0,
-   "link_to": "Equipment Name",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
    "label": "Service Type",
    "link_count": 0,
    "link_to": "Service Type",
@@ -72,9 +62,19 @@
    "link_type": "DocType",
    "onboard": 0,
    "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Equipment Category",
+   "link_count": 0,
+   "link_to": "Equipment Category",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
   }
  ],
- "modified": "2023-10-12 14:38:13.815701",
+ "modified": "2023-10-12 16:11:27.476108",
  "modified_by": "Administrator",
  "module": "EquiFiix",
  "name": "Equipment Maintenance App",
