@@ -18,7 +18,6 @@
   "km_reading_",
   "svr_no_",
   "cm_br1",
-  "status_em",
   "location_",
   "service_name_",
   "section_break_ccic",
@@ -82,15 +81,6 @@
    "fieldname": "svr_no_",
    "fieldtype": "Int",
    "label": "SVR No."
-  },
-  {
-   "fieldname": "status_em",
-   "fieldtype": "Select",
-   "in_filter": 1,
-   "in_list_view": 1,
-   "in_standard_filter": 1,
-   "label": "Status",
-   "options": "Open\nAssign\nOn Hold\nCompleted\nNot Solved"
   },
   {
    "fieldname": "status_machine",
@@ -186,7 +176,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-10-12 15:56:54.259655",
+ "modified": "2023-10-13 15:59:53.373947",
  "modified_by": "Administrator",
  "module": "EquiFiix",
  "name": "Equipment Maintenance",

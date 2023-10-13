@@ -21,7 +21,7 @@
    "hidden": 0,
    "is_query_report": 0,
    "label": "Equipment & Maintenance",
-   "link_count": 1,
+   "link_count": 2,
    "onboard": 0,
    "type": "Card Break"
   },
@@ -31,24 +31,6 @@
    "label": "Equipment Maintenance List",
    "link_count": 0,
    "link_to": "Equipment Maintenance",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Master",
-   "link_count": 3,
-   "onboard": 0,
-   "type": "Card Break"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Service Type",
-   "link_count": 0,
-   "link_to": "Service Type",
    "link_type": "DocType",
    "onboard": 0,
    "type": "Link"
@@ -66,6 +48,24 @@
   {
    "hidden": 0,
    "is_query_report": 0,
+   "label": "Master",
+   "link_count": 2,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Service Type",
+   "link_count": 0,
+   "link_to": "Service Type",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
    "label": "Equipment Category",
    "link_count": 0,
    "link_to": "Equipment Category",
@@ -74,7 +74,7 @@
    "type": "Link"
   }
  ],
- "modified": "2023-10-12 16:11:27.476108",
+ "modified": "2023-10-13 15:33:46.479785",
  "modified_by": "Administrator",
  "module": "EquiFiix",
  "name": "Equipment Maintenance App",

@@ -1,44 +1,45 @@
 {
  "actions": [],
- "autoname": "autoincrement",
+ "autoname": "field:equipment_category",
  "creation": "2023-10-12 14:18:32.539168",
  "default_view": "List",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "equipment_name",
+  "equipment_category",
   "column_break_bojj",
-  "type"
+  "category_type"
  ],
  "fields": [
-  {
-   "fieldname": "equipment_name",
-   "fieldtype": "Data",
-   "in_list_view": 1,
-   "label": "Equipment Name",
-   "reqd": 1
-  },
   {
    "fieldname": "column_break_bojj",
    "fieldtype": "Column Break"
   },
   {
-   "fieldname": "type",
+   "fieldname": "equipment_category",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Equipment Category",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "category_type",
    "fieldtype": "Select",
    "in_list_view": 1,
-   "label": "Type",
+   "label": "Category Type",
    "options": "Assets\nVehicle",
    "reqd": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-10-12 14:38:56.693561",
+ "modified": "2023-10-13 15:37:21.124355",
  "modified_by": "Administrator",
  "module": "EquiFiix",
  "name": "Equipment Category",
- "naming_rule": "Autoincrement",
+ "naming_rule": "By fieldname",
  "owner": "Administrator",
  "permissions": [
   {
