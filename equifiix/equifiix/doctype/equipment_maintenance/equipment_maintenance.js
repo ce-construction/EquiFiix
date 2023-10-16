@@ -29,8 +29,12 @@ frappe.ui.form.on("Equipment Maintenance", {
             frm.set_value('custom_current_status', lastRow.status_s);
            
         }
-        var firstRow_status = frm.doc.history_[0];
-        console.log(firstRow_status);
+        var firstRowStatus = childTable[0].status_s;
+        console.log("Grid Name: ", frm.fields_dict.history_.grid);
+        //console.log(firstRow_status);
+        if (firstRowStatus) {
+            frm.fields_dict.history_.grid.get_field(firstRowStatus).read_only = 1;
+        }
         //frm.fields_dict.history_.grid.update_docfield_property(firstRow_status.status_s.fieldname, "read_only", 1);
 
         //alert(firstRow_status);
